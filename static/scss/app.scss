@@ -1,0 +1,16 @@
+@import "normalize";
+@import "settings";
+@import "foundation";
+@import "base";
+@import "mindy";
+
+@import "compass/layout";
+@include sticky-footer($footerHeight, "#wrapper", "#push", "#footer");
+
+body {
+  background-color: #f1f1f1;
+}
+
+#footer {
+  background: #fff;
+}
